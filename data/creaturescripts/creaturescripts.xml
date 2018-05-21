@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<creaturescripts>
+	<event type="login" name="PlayerLogin" script="login.lua" />
+	<event type="logout" name="PlayerLogout" script="logout.lua" />
+	<event type="login" name="FirstItems" script="firstitems.lua" />
+	<event type="login" name="OfflineTraining" script="offlinetraining.lua" />
+	<event type="login" name="RegenerateStamina" script="regeneratestamina.lua" />
+	<event type="extendedopcode" name="ExtendedOpcode" script="extendedopcode.lua" />
+
+	<event type="death" name="PlayerDeath" script="playerdeath.lua" />
+	<event type="death" name="DropLoot" script="droploot.lua" />
+	<event type="advance" name="Rewards" script="rewards.lua"/>
+	<event type="advance" name="Promotion" script="promotion.lua"/>
+
+	<!-- DUCA Event -->
+	<event type="login" name="Duca-Login" script="custom/events/duca_creaturescript.lua"/>
+	<event type="logout" name="Duca-Logout" script="custom/events/duca_creaturescript.lua"/>
+	<event type="preparedeath" name="Duca-Death" script="custom/events/duca_creaturescript.lua"/>
+
+	<!-- Battlefield Event -->
+	<event type="login" name="Battlefield-Login" script="custom/events/battlefield_creaturescript.lua"/>
+	<event type="logout" name="Battlefield-Logout" script="custom/events/battlefield_creaturescript.lua"/>
+	<event type="preparedeath" name="Battlefield-Death" script="custom/events/battlefield_creaturescript.lua"/>
+
+	<!-- Zumbi Event -->	
+	<event type="login" name="Zumbi-Login" script="custom/events/zumbi_creaturescript.lua"/>
+	<event type="logout" name="Zumbi-Logout" script="custom/events/zumbi_creaturescript.lua"/>
+	<event type="healthchange" name="Zumbi" script="custom/events/zumbi_creaturescript.lua" />
+
+	<!-- PVP Arena -->
+	<event type="login" name="Arena-Login" script="custom/pvp_arena.lua"/>
+	<event type="logout" name="Arena-Logout" script="custom/pvp_arena.lua"/>
+	<event type="preparedeath" name="Arena-Death" script="custom/pvp_arena.lua"/>
+	
+	<!-- Task System -->
+	<event type="kill" name="tasksystem" script="custom/task_system.lua"/>	
+</creaturescripts>
