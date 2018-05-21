@@ -3032,7 +3032,6 @@
 	<spawn centerx="60" centery="436" centerz="7" radius="1">
 		<monster name="Demon" x="0" y="-1" z="7" spawntime="60" />
 	</spawn>
-	<spawn centerx="199" centery="439" centerz="7" radius="1" />
 	<spawn centerx="55" centery="443" centerz="7" radius="1">
 		<monster name="Fire Devil" x="0" y="0" z="7" spawntime="60" />
 	</spawn>
@@ -3159,7 +3158,6 @@
 		<monster name="Frost Dragon" x="1" y="-1" z="7" spawntime="60" />
 		<monster name="Frost Dragon" x="-3" y="0" z="7" spawntime="60" />
 	</spawn>
-	<spawn centerx="848" centery="572" centerz="7" radius="1" />
 	<spawn centerx="813" centery="575" centerz="7" radius="5">
 		<monster name="Frost Dragon" x="-1" y="-3" z="7" spawntime="60" />
 		<monster name="Frost Dragon" x="-4" y="3" z="7" spawntime="60" />
@@ -10885,7 +10883,6 @@
 		<monster name="Hand of Cursed Fate" x="1" y="-1" z="11" spawntime="60" />
 		<monster name="Phantasm" x="1" y="0" z="11" spawntime="60" />
 	</spawn>
-	<spawn centerx="322" centery="65" centerz="11" radius="1" />
 	<spawn centerx="208" centery="69" centerz="11" radius="15">
 		<monster name="Hellhound" x="10" y="-10" z="11" spawntime="60" />
 		<monster name="Hellhound" x="-9" y="-9" z="11" spawntime="60" />
